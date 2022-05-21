@@ -1,27 +1,14 @@
 @extends('basic-template')
 
 @section('content')
-        <div class="carousel carousel-center rounded-box ">
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=8B7BCDC2" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=500B67FB" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=A89D0DE6" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=225E6693" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=9D9539E7" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=BDC01094" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=7F5AE56A" alt="Pizza" />
+        <div class="hero min-h-screen" style="background-image: url(https://api.lorem.space/image/burger?w=1000&h=800);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Hola Comerciante</h1>
+                    <p class="mb-5">Da facilidad a tus clientes para poder ver lo que ofreces en tu menu, crealo y compartelo con ellos.</p>
+                    <a href="{{route('visualizar')}}" class="btn btn-primary">Inicia</a>
+                </div>
             </div>
         </div>
 @endsection

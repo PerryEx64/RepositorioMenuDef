@@ -1,7 +1,8 @@
 @extends('basic-template')
 
 @section('content')
-    <div id="titulo">Menu del Restaurante</div>
+    <div class="flex justify-center">{!!QrCode::size(150)->generate('http://perryex.site/visualizar/menu') !!}</div>
+    <div id="titulo" class="flex justify-center">Menu del Restaurante</div>
     <br>
     <div class="flex justify-center">
         <div class="border-double border-4 border-info rounded-lg">

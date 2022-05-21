@@ -18,6 +18,7 @@
 
     <style>
         #titulo{
+            margin-bottom: -10px;
             text-align: center;
             font-size: 35px;
         }
@@ -66,7 +67,7 @@
             </div>
         </div>
     </div>
-<div class="container mx-auto my-auto">
+<div class=" ">
     @yield('content')
 </div>
 
