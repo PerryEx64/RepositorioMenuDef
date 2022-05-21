@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>DG Menu</title>
 
     <!-- Wire UI -->
     <wireui:scripts />
@@ -27,8 +27,6 @@
     @livewireStyles
 </head>
 <body>
-    <x-notifications />
-    <x-notifications z-index="z-50" />
     @wireUiScripts
     <script src="//unpkg.com/alpinejs" defer></script>
     <div class="navbar bg-base-100 flex justify-center">
@@ -68,7 +66,7 @@
             </div>
         </div>
     </div>
-<div class="container mx-auto mt-2 ">
+<div class="container mx-auto my-auto">
     @yield('content')
 </div>
 

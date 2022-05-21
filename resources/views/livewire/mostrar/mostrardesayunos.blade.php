@@ -4,7 +4,7 @@
         <tbody>
         @foreach($desayunos as $desayuno)
             <tr>
-                <td>
+                <td >
                     {{$desayuno->nombre_platillo}}
                     <br>
                     <span class="badge badge-info badge-sm">{{$desayuno->guarnicion_platillo}}</span>

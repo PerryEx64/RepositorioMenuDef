@@ -2,16 +2,20 @@
 
 @section('content')
     <div id="titulo">Menu del Restaurante</div>
-    <div class="border-double border-4 border-info rounded-lg flex justify-center">
+    <br>
+    <div class="flex justify-center">
+        <div class="border-double border-4 border-info rounded-lg">
 
-        <div class="card shadow-2xl sm:mx-1 sm:my-1 grid grid-cols-2 gap-2 xl:grid-cols-2 xl:gap-2">
-            @livewire('mostrar.mostrardesayunos')
+            <div class="card shadow-2xl sm:mx-1 sm:my-1 grid grid-cols-2 gap-2 xl:grid-cols-2 xl:gap-2">
+                @livewire('mostrar.mostrardesayunos')
 
-            @livewire('mostrar.mostraralmuerzos')
+                @livewire('mostrar.mostraralmuerzos')
 
-            @livewire('mostrar.mostrarcenas')
+                @livewire('mostrar.mostrarcenas')
 
-            @livewire('mostrar.mostrarbebidas')
+                @livewire('mostrar.mostrarbebidas')
+            </div>
         </div>
     </div>
+
 @endsection
