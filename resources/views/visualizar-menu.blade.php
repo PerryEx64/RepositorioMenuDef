@@ -7,7 +7,10 @@
     <div class="flex justify-center">
         <div class="border-double border-4 border-info rounded-lg">
 
-            <div class="card shadow-2xl sm:mx-1 sm:my-1 grid grid-cols-2 gap-2 xl:grid-cols-2 xl:gap-2">
+            <div class="card shadow-2xl sm:mx-1 sm:my-1 grid
+        
+            sm:grid-cols-2 sm:gap-2
+            xl:grid-cols-3 xl:gap-3">
                 @livewire('mostrar.mostrardesayunos')
 
                 @livewire('mostrar.mostraralmuerzos')
