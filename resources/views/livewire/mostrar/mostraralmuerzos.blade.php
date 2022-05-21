@@ -1,9 +1,9 @@
 <div class="card-body ">
     <h2 class="card-title">Almuerzos!</h2>
-    <table class="table ">
+    <table class="table  ">
         <tbody>
         @foreach($almuerzos as $almuerzo)
-            <tr>
+            <tr class="mt-2">
                 <td>
                     {{$almuerzo->nombre_platillo}}
                     <br>
